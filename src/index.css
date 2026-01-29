@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+    --font-display: "inter";
+
+    --color-blue-main: #0B1D3A;
+    --color-blue-second: #050E1B;
+    --color-yellow-text: #FFFF82;
+    --color-gray-text: #B9B9B9;
+    --color-violeta-custom: #302D52;
+}
